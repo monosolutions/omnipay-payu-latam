@@ -8,11 +8,4 @@ parameters:
           - "var_dump("
           - "exit"
           - "##DEBUG##"
-      composer:
-        no_check_publish: true
-      git_commit_message:
-        matchers:
-          - /([A-Z0-9]+)(-[0-9]+)/
-        case_insensitive: true
-        multiline: true
-
+      phpunit:
