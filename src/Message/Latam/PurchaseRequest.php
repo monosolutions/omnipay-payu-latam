@@ -28,7 +28,7 @@ class PurchaseRequest extends AbstractRequest
             "signature"       => $this->generateSignature(),
             "accountId"       => $this->getParameter("accountId"),
             "referenceCode"   => $this->getTransactionReference(),
-            "description"     => "{$this->getParameter("siteName")} - Order Reference #{$this->getTransactionReference()}",
+            "description"     => "{$this->getTransactionReference()}",
             "amount"          => str_replace(".00", "", $this->getAmount()),
             "tax"             => str_replace(".00", "", $this->formatCurrency($tax ? $tax : 0)),
             "taxReturnBase"   => str_replace(".00", "", $this->formatCurrency($taxBase ? $taxBase : 0)),
@@ -36,6 +36,7 @@ class PurchaseRequest extends AbstractRequest
             "test"            => "" . intval($this->getTestMode()),
             "responseUrl"     => $this->getReturnUrl(),
             "confirmationUrl" => $this->getNotifyUrl(),
+            "currency" => $this->getCurrency(),
         ];
     }
 
