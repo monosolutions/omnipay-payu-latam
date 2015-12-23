@@ -7,7 +7,7 @@
   },
   "require-dev": {
     "omnipay/tests": "~2.0",
-    "phpro/grumphp": "dev-master"
+    "phpro/grumphp": "*"
   },
   "autoload": {
     "psr-4": {

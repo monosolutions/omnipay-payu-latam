@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4950aab7ffecbb42a261c34db2c194a6",
-    "content-hash": "98e3d45733753456005afd3d5a684c25",
+    "hash": "5da9b4842b189fca0948f22e864a3862",
+    "content-hash": "bbc88564fb8033a8d780d11832cb16ed",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -661,16 +661,16 @@
         },
         {
             "name": "phpro/grumphp",
-            "version": "dev-master",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpro/grumphp.git",
-                "reference": "80feeba21557f1a1c77273d524131551015faef8"
+                "reference": "6d675b47011f0bcf1cb4ec6644b731ed5a416714"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpro/grumphp/zipball/80feeba21557f1a1c77273d524131551015faef8",
-                "reference": "80feeba21557f1a1c77273d524131551015faef8",
+                "url": "https://api.github.com/repos/phpro/grumphp/zipball/6d675b47011f0bcf1cb4ec6644b731ed5a416714",
+                "reference": "6d675b47011f0bcf1cb4ec6644b731ed5a416714",
                 "shasum": ""
             },
             "require": {
@@ -731,7 +731,7 @@
                 }
             ],
             "description": "A composer plugin that enables source code quality checks.",
-            "time": "2015-12-17 06:03:10"
+            "time": "2015-12-11 12:13:59"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1649,9 +1649,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phpro/grumphp": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
