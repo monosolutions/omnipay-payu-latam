@@ -56,7 +56,7 @@ class PurchaseRequestTest extends TestCase
         $this->assertInstanceOf("Omnipay\\PayU\\Message\\Latam\\PurchaseResponse", $response);
         $this->assertTrue($response->isRedirect());
         $content = $response->getRedirectResponse()->getContent();
-        $this->assertContains("action=\"https://stg.", $content);
+        $this->assertContains("action=\"https://sandbox.", $content);
 
     }
 }
