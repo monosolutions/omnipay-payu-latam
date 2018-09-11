@@ -10,11 +10,13 @@ Add this repository to `composer.json`
 {
     "name": "mono/v5",
     "repositories": [
-        // ...
         {
             "type": "vcs",
             "url": "https://github.com/monosolutions/omnipay-payu-latam"
-        },
-        // ...
+        }
+     ],
+     "required": {
+        "mono/omnipay-payu-latam": "dev-master"
+     }
 }
 ```
